@@ -49,7 +49,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sparrow9616/StrangerMusicBot",
+    "https://github.com/Anurag8953/Cutex",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -58,11 +58,12 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/sparrow96160
+    "SUPPORT_CHANNEL",
+    "https://t.me/hyperxfellings",
+)  
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
-)  # Example:- https://t.me/strangersupport
+)  # Example:- https://t.me/strangersuppor
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -223,13 +224,13 @@ START_IMG_URL = getenv("START_IMG_URL", None)
 #     "assets/SpotifyPlaylist.jpeg",
 # )
 
-PING_IMG_URL = "https://graph.org/file/e677ea79ecbdae5b8dbaa.jpg"
+PING_IMG_URL = "https://telegra.ph/file/d7ede14f8a4e56fdc424d.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/6267bdf12362e80f1811b.jpg"
 
 GLOBAL_IMG_URL = "https://graph.org/file/451add95a90955a01b6b0.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/5f3d0d2c8e35a037e4663.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
 
 TELEGRAM_AUDIO_URL = "https://graph.org/file/ca76280b0610c31f20051.jpg"
 
